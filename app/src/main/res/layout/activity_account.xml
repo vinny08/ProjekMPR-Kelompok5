@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Account"
+    android:background="#DDFAFF">
+
+    <LinearLayout
+        android:id="@+id/kolomSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_marginTop="20dp">
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/pp"/>
+        <TextView
+            android:id="@+id/barNama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="28dp"
+            android:text="Vinny Agustine"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/kolomSearch"
+        android:layout_marginTop="40dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/barEmail"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:background="@drawable/roundedbutton"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:gravity="center_vertical"
+                android:text="Email"
+                android:paddingLeft="20dp"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+            <TextView
+                android:id="@+id/barPassword"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:background="@drawable/roundedbutton"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:gravity="center_vertical"
+                android:text="Password"
+                android:paddingLeft="20dp"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+            <TextView
+                android:id="@+id/barPhoneNumber"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:background="@drawable/roundedbutton"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:gravity="center_vertical"
+                android:text="Phone Number"
+                android:paddingLeft="20dp"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+            <TextView
+                android:id="@+id/barMyFavor"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:background="@drawable/roundedbutton"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:gravity="center_vertical"
+                android:text="My Favourites"
+                android:paddingLeft="20dp"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+            <TextView
+                android:id="@+id/barHistory"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:background="@drawable/roundedbutton"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:gravity="center_vertical"
+                android:text="History"
+                android:paddingLeft="20dp"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+            <TextView
+                android:id="@+id/barSetting"
+                android:layout_marginTop="23dp"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:background="@drawable/roundedbutton"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:gravity="center_vertical"
+                android:text="Settings"
+                android:paddingLeft="20dp"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+            <TextView
+                android:id="@+id/barTerm"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:background="@drawable/roundedbutton"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:gravity="center_vertical"
+                android:text="Term of Service"
+                android:paddingLeft="20dp"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+            <TextView
+                android:id="@+id/barPolicy"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:background="@drawable/roundedbutton"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:gravity="center_vertical"
+                android:text="Privacy Policy"
+                android:paddingLeft="20dp"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+            <TextView
+                android:id="@+id/barHelp"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:background="@drawable/roundedbutton"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:gravity="center_vertical"
+                android:text="Help Center"
+                android:paddingLeft="20dp"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+            <TextView
+                android:id="@+id/barLogOut"
+                android:layout_marginTop="23dp"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:background="@drawable/roundedbutton"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:gravity="center"
+                android:text="Log Out"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/searchbutton"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="24dp"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/buthome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#88EFA6"
+            android:padding="10dp"
+            android:src="@drawable/basemenuhome"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <ImageButton
+            android:id="@+id/butfave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="105dp"
+            android:layout_toRightOf="@id/buthome"
+            android:background="#88EFA6"
+            android:padding="10dp"
+            android:src="@drawable/basemenuheart"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <ImageButton
+            android:id="@+id/butuser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="105dp"
+            android:layout_toRightOf="@id/butfave"
+            android:background="@drawable/choosenbutton"
+            android:padding="10dp"
+            android:src="@drawable/basemenuuser"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+    </RelativeLayout>
+</RelativeLayout>

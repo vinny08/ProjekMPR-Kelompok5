@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#DDFAFF">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:paddingRight="-140dp"
+        android:src="@drawable/bgmainx1" />
+
+    <ImageView
+        android:id="@+id/botmage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-10dp"
+        android:src="@drawable/dropmainx1" />
+
+    <TextView
+        android:layout_marginTop="244dp"
+        android:id="@+id/bar1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="WORLD OF"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textAlignment="center"
+        android:textSize="40dp"/>
+    <TextView
+        android:id="@+id/bar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bar1"
+        android:text="FRUITS"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textAlignment="center"
+        android:textSize="40dp"/>
+
+    <TextView
+        android:id="@+id/bar3"
+        android:layout_width="265dp"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="Welcome to the World of Fruits"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textSize="24dp"
+        android:layout_marginBottom="150dp"
+        android:layout_marginLeft="30dp"
+        android:textColor="@color/black"
+        android:layout_alignParentBottom="true"/>
+
+    <TextView
+        android:id="@+id/bar4"
+        android:layout_width="327dp"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="Learning have never been so easy! With World of Fruits. You will Learn a bunch of fruits vocabulary in English!"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textSize="16dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="90dp"
+        android:layout_alignParentBottom="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:src="@drawable/buttondotsmainx1"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="22.5dp"/>
+
+    <ImageButton
+        android:id="@+id/startMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="22.5dp"
+        android:layout_marginTop="22.5dp"
+        android:layout_marginEnd="22.5dp"
+        android:layout_marginBottom="22.5dp"
+        android:background="@drawable/buttonmainx1"
+        android:text="Start"
+        android:textSize="36dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+</RelativeLayout>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Detail"
+    android:background="#FFFFFF">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="-180dp"
+        android:paddingLeft="-40dp"
+        android:paddingRight="-80dp"
+        android:src="@drawable/drawbackcircle" />
+
+    <TextView
+        android:id="@+id/barNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="20dp"
+        android:text="I'm Fruit Name"
+        android:textColor="@color/black"
+        android:textSize="36dp" />
+
+    <ImageView
+        android:id="@+id/barImage"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_below="@id/barNama"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="115dp"
+        android:layout_marginRight="70dp"
+        android:src="@drawable/imgbanana" />
+
+    <TextView
+        android:id="@+id/barImageText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/barImage"
+        android:layout_marginTop="5dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:padding="10dp"
+        android:text="Banana"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="38dp" />
+
+    <TextView
+        android:id="@+id/butonoffsound"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@id/barImageText"
+        android:layout_marginLeft="150dp"
+        android:layout_marginRight="150dp"
+        android:background="@drawable/learnbutton"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:gravity="center"
+        android:text="Play"
+        android:textColor="@color/black"
+        android:textSize="16dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/searchbutton"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="24dp"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/buthome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#88EFA6"
+            android:padding="10dp"
+            android:src="@drawable/basemenuhome"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <ImageButton
+            android:id="@+id/butfave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="105dp"
+            android:layout_toRightOf="@id/buthome"
+            android:background="#88EFA6"
+            android:padding="10dp"
+            android:src="@drawable/basemenuheart"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <ImageButton
+            android:id="@+id/butuser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="105dp"
+            android:layout_toRightOf="@id/butfave"
+            android:background="#88EFA6"
+            android:padding="10dp"
+            android:src="@drawable/basemenuuser"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+    </RelativeLayout>
+</RelativeLayout>
